@@ -199,7 +199,7 @@ addSuggestedCity("Dubai");
         
         switch (description) { // Fix variable name
             case 'Clear':
-                image.src = "clear.png";
+                image.src = 'clear.png';
                 break;
             case 'Rain':
                 image.src = 'rain.png';
@@ -208,22 +208,22 @@ addSuggestedCity("Dubai");
                 image.src = 'fog.png';
                 break;
             case 'Smoke':
-                image.src = "smoke.png";
+                image.src = 'smoke.png';
                 break;
             case 'Thunderstorm':
-                image.src = "storm.png";
+                image.src = 'storm.png';
                 break;
             case 'Snow':
                 image.src = 'snow.png';
                 break;
             case 'Clouds':
-                image.src = 'C:clouds.png';
+                image.src = 'clouds.png';
                 break;
             case 'Mist':
-                image.src = 'mist.png'; // Double backslashes in the path
+                image.src = 'mist.png';
                 break;
             case 'Drizzle':
-                image.src = 'C:\\Users\\kauti\\OneDrive\\Desktop\\directory\\images\\drizzle.png';
+                image.src = 'drizzle.png';
                 break;
             case 'Haze':
                     image.src = 'haze.png'
